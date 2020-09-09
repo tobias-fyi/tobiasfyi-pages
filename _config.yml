@@ -36,6 +36,9 @@ url: "https://tobias-fyi.github.io" # the base hostname & protocol for your site
 #
 baseurl: "/tobiasfyi-pages" # the subpath of your site, e.g. "/blog".
 
+# Permalinks
+permalink: /:title
+
 # Github and twitter are optional:
 minima:
   social_links:
@@ -49,7 +52,7 @@ use_math:
 show_description: true
 
 # Set this to true to display image previews on home page, if they exist
-show_image: false
+show_image: true
 
 # Set this to true to display tags on each post
 show_tags: true
